@@ -1,0 +1,51 @@
+*{
+	padding: opx;
+	margin: 0px;
+	border-sizing: border-box;
+	font-family: 'Lexend', sans-serif;
+}
+
+.cantainer{
+    height: 100vh;
+	width: 90%;
+	margin: auto;
+}
+
+#banner-sec{
+	height: 30vh;
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../image/image123.jpg);
+	background-position: center;
+	background-size: cover;
+	border: 2px solid white;
+}	
+
+.parent{
+	display: flex;
+	justify-content: center;
+    text-align: center;
+	padding-top: 35px;
+}	
+
+.text{
+	color: white;
+}
+
+.text h1,p{
+    padding: 6px;
+}
+
+.btn input{
+    border: 3px solid white;
+	background: transparent;
+	padding: 8px 24px;
+	color: white;
+	margin-top: 10px;
+	cuesor: pointer;
+	border-radius: 3px;
+}
+
+.btn input:hover{
+    background-color: black;
+}    	
+
+	
